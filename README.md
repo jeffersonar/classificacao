@@ -1,16 +1,17 @@
 # classificacao
 Aplicação em python  naive byes  algoritmo multinomialNB
 
-SET PROXY IN WINDOWS 
-set http_proxy=http//user:pwd@ip:porta
-set https_proxy=http//user:pwd@ip:porta
+## Set Proxy python no Windows 
+set http_proxy=http//user:pwd@ip:porta <br/>
+set https_proxy=http//user:pwd@ip:porta<br/><br/>
 
-DOWNLOAD ON PIP SITE
-python get-pip.py 
+## Processo de Instalação
+### Baixa o arquivo do pip no site
+python get-pip.py <br/><br/>
 
-APOS PIP INSTALADO INSTALAR MARCHINE LEARNING
-pip install scikit-learn
+### Apos pip instalado agora instale Machine Learning
+pip install scikit-learn<br/><br/>
 
-INSTALAR COMPLEMENTO MACHINE LEARNING
+### Intalar complemento da Machine Learning
 pip install scipy
 
