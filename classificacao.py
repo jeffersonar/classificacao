@@ -21,5 +21,15 @@ marcacoes_teste=[-1, 1, -1]
 modelo=MultinomialNB()
 modelo.fit(dados,marcacoes)
 resultado= modelo.predict(teste)
+diferencas = resultado-marcacoes_teste
+acertos = [d for d in diferencas if d==0]
+total_de_acertos = len(acertos)
+total_de_elementos = len(teste)
+
+taxa_de_acerto=100.0*total_de_acertos/total_de_elementos
 print(resultado)
+
+print(diferencas)
+
+print(taxa_de_acerto)
 
